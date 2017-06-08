@@ -213,6 +213,9 @@ body {
         display: block;
         width: 170px;
     }
+    .header {
+        padding: 0 !important;
+    }
 }
 
 /* End Header */
@@ -1428,14 +1431,3 @@ body {
 }
 
 /* End Footer */
-
-@media (max-width: 991px){
-    body > div:not(:last-of-type) {
-        padding: 55px 0 !important;
-    }
-}
-@media (max-width: 768px){
-    body > div:not(:last-of-type) {
-        padding: 40px 0 !important;
-    }
-}

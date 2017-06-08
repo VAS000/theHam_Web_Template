@@ -148,10 +148,12 @@ $(function(){
         "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp"
     ];
 
+    /*
     $('body > div').each(function(){
         $(this).addClass(animateEffects[Math.floor(Math.random() * animateEffects.length)]);
         $(this).addClass('wow');
     });
+    */
     
     // Trigger WOWJS
     new WOW().init();
@@ -175,4 +177,5 @@ $(function(){
             }, 1000);
         }
     });
+
 });
